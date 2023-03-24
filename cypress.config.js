@@ -57,10 +57,10 @@ module.exports = defineConfig({
       on("task", {
         async connectDB(query){
           const client = new Client({
-            user: "user_eqlab",
-            password: "pP8$iA9%mC0,fT1&",
-            host: "dbpgsqlqa.poupex.com.br",
-            database: "pgqa",
+            user: "user",
+            password: "password",
+            host: "host",
+            database: "cypress",
             ssl: false,
             port: 9999
           })
